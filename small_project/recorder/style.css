@@ -1,0 +1,104 @@
+html
+{
+    background-color: rgb(71, 69, 47);
+    height: 100%;
+    transition: all 0.5s ease-in-out;
+}
+
+h1, p, div, input, button, textarea
+{
+    font-family: 'Silkscreen', cursive; /* cursive 是通用字體中的手寫體，是預設字體，作為備案。
+    /* text-align: center; */
+}
+
+body
+{
+    margin: 0px auto 0px auto;
+    width: 600px;
+    height: inherit;
+}
+
+*::before
+{
+    background-color: white;
+    /* word-wrap: break-word; */
+    transition: all 0.5s ease-in-out;
+}
+
+.main
+{
+    margin: 0px 10px 0px 10px;
+    padding: 10px;
+    width: auto;
+    height: inherit;
+    background-color: rgb(63, 63, 45);
+}
+
+.mainInput
+{
+    margin: 10px auto 50px 0;
+    padding: 0px;
+    width: 360px;
+}
+
+h1
+{
+    width: 330px;
+    text-align: center;
+    color: rgb(105, 100, 21);
+    margin: 10px auto 10px 0px;
+    padding: 10px;
+    border: solid rgb(228, 190, 20);
+    border-radius: 10px;
+    background-color: rgb(233, 230, 42);
+}
+
+input, textarea
+{
+    caret-color: rgb(73, 72, 7);
+    outline: none;
+    width: 310px;
+    height: 3em;
+    border-radius: 10px;
+    transition: outline 0.35s ease-out;
+}
+
+input:focus, textarea:focus
+{
+    outline: solid rgb(228, 190, 20);
+}
+
+p
+{
+    width: 21em; /* 內容寬度 */
+    margin: 5px auto 5px 0px;
+    padding: 10px 0px;
+    color:rgb(233, 230, 42);
+}
+
+.article
+{
+    width: auto;
+    text-align: left;
+    
+    margin: 10px 0px;
+    padding: 10px;
+    color: rgb(233, 230, 42);
+    background-color: rgb(59, 59, 48);
+    /* border: solid rgb(228, 190, 20); */
+    border-radius: 15px;
+}
+
+
+.article h2
+{
+    margin: 2px auto;
+    padding: 3px;
+    border-bottom: solid rgb(71, 69, 47);
+    border-width: 5px;
+}
+
+.article p
+{
+    padding: 3px;
+}

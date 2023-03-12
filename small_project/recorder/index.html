@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hant">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Daniel-shih">
+        <link rel="stylesheet" href="style.css" type="text/css">
+
+        <!-- 處理font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+        
+        <title>Recorder</title>
+    </head>
+    <body>
+        <div class="main">
+            <div class="mainInput">
+                <h1>Overhead List</h1>
+                <p>Term</p>
+                <div class="inputTerm">
+                    <textarea id="term" row="2" placeholder="Name..." autofocus></textarea>
+                </div>
+                <p>Price</p>
+                <div class="inputPrice">
+                    <input type="text" id="price" placeholder="Price..."> <!-- 可以用autofocus來讓頁面刷新後聚焦在這邊 -->
+                    <button id="btn">+</button>   
+                </div>
+            </div>
+            <div id="mainList"></div>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
